@@ -1,13 +1,51 @@
 body{
     background-color: grey;
+    width: 960px;
+    font-size: 18px;
+    font-family: 'Arial, Helvetica, sans-serif'
 }
 
-h1{
+header, footer{
     color: grey;
     background-color:#ebebeb;
-    position: center;
-    margin: 100px 100px;
-    height: 100px;
-    width: 980px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 90px;
+    width: 960px;
     text-align: center;
+    line-height: 90px;
+    position: relative;
+}
+nav{
+    color: grey;
+    background-color:#ebebeb;
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 90px;
+    width: 960px;
+    text-align: center;
+    line-height: 90px;
+    position: relative;
+}
+section{
+    color: grey;
+    background-color:#ebebeb;
+    margin-left: 100px;
+    height: 300px;
+    width: 495px;
+    text-align: center;
+    line-height: 90px;
+    position: relative;
+}
+aside{
+    color: grey;
+    background-color:#ebebeb;
+    margin-left: 100px;
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    line-height: 90px;
+    position: absolute;
+    left: 520px;
+    top: 236px;
 }
